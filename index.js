@@ -36,9 +36,9 @@ function startBotLoop() {
   log(`🔁 Connecting as ${username}...`);
 
   bot = mineflayer.createBot({
-    host: IP,
-    port: PORT,
-    username
+    host: 104.234.220.122,
+    port: 26393,
+    username happy232
   });
 
   bot.on('spawn', () => {
